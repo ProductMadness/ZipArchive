@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = 'PM-SSZipArchive'
   s.version      = '2.4.3'
-  s.summary      = 'Utility class for zipping and unzipping files on iOS, tvOS, watchOS, and macOS. PM fork.'
-  s.description  = 'SSZipArchive PM fork is a simple utility class for zipping and unzipping files on iOS, tvOS, watchOS, and macOS. It supports AES and PKWARE encryption.'
+  s.summary      = 'Utility class for zipping and unzipping files on iOS. PM fork.'
+  s.description  = 'SSZipArchive PM fork is a simple utility class for zipping and unzipping files on iOS. It supports AES and PKWARE encryption.'
   s.homepage     = 'https://github.com/ProductMadness/ZipArchive'
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.authors      = { "Hoang Bui" => "hoang.bui@productmadness.com", "Emily Kwong" => "Emily.Kwong@productmadness.com", "Zafer Sevik "=> "zafer.sevik@productmadness.com", "Antonio Gonzalez" => "Antonio.Gonzalez@productmadness.com" }
