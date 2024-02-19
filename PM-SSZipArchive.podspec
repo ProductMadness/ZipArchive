@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name         = 'SSZipArchive'
+  s.name         = 'PM-SSZipArchive'
   s.version      = '2.4.3'
-  s.summary      = 'Utility class for zipping and unzipping files on iOS, tvOS, watchOS, and macOS.'
-  s.description  = 'SSZipArchive is a simple utility class for zipping and unzipping files on iOS, tvOS, watchOS, and macOS. It supports AES and PKWARE encryption.'
-  s.homepage     = 'https://github.com/ZipArchive/ZipArchive'
+  s.summary      = 'Utility class for zipping and unzipping files on iOS, tvOS, watchOS, and macOS. PM fork.'
+  s.description  = 'SSZipArchive PM fork is a simple utility class for zipping and unzipping files on iOS, tvOS, watchOS, and macOS. It supports AES and PKWARE encryption.'
+  s.homepage     = 'https://github.com/ProductMadness/ZipArchive'
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
-  s.authors      = { 'Sam Soffes' => 'sam@soff.es', 'Joshua Hudson' => nil, 'Antoine Cœur' => nil }
-  s.source       = { :git => 'https://github.com/ZipArchive/ZipArchive.git', :tag => "v#{s.version}" }
+  s.authors      = { "Hoang Bui" => "hoang.bui@productmadness.com", "Emily Kwong" => "Emily.Kwong@productmadness.com", "Zafer Sevik "=> "zafer.sevik@productmadness.com", "Antonio Gonzalez" => "Antonio.Gonzalez@productmadness.com" }
+  s.source       = { :git => 'https://github.com/ProductMadness/ZipArchive.git', :tag => "#{s.version}" }
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
   s.osx.deployment_target = '10.9'
