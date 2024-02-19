@@ -8,9 +8,6 @@ Pod::Spec.new do |s|
   s.authors      = { "Hoang Bui" => "hoang.bui@productmadness.com", "Emily Kwong" => "Emily.Kwong@productmadness.com", "Zafer Sevik "=> "zafer.sevik@productmadness.com", "Antonio Gonzalez" => "Antonio.Gonzalez@productmadness.com" }
   s.source       = { :git => 'https://github.com/ProductMadness/ZipArchive.git', :tag => "#{s.version}" }
   s.ios.deployment_target = '9.0'
-  s.tvos.deployment_target = '9.0'
-  s.osx.deployment_target = '10.9'
-  s.watchos.deployment_target = '2.0'
   s.source_files = 'SSZipArchive/*.{m,h}', 'SSZipArchive/include/*.{m,h}', 'SSZipArchive/minizip/*.{c,h}'
   s.resource_bundles = {'SSZipArchive' => ['SSZipArchive/Supporting Files/Privacyinfo.xcprivacy']}
   s.public_header_files = 'SSZipArchive/*.h'
