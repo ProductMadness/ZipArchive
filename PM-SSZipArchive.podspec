@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.authors      = { "Hoang Bui" => "hoang.bui@productmadness.com", "Emily Kwong" => "Emily.Kwong@productmadness.com", "Zafer Sevik "=> "zafer.sevik@productmadness.com", "Antonio Gonzalez" => "Antonio.Gonzalez@productmadness.com" }
   s.source       = { :git => 'https://github.com/ProductMadness/ZipArchive.git', :tag => "#{s.version}" }
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
   s.source_files = 'SSZipArchive/*.{m,h}', 'SSZipArchive/include/*.{m,h}', 'SSZipArchive/minizip/*.{c,h}'
   s.resource_bundles = {'SSZipArchive' => ['SSZipArchive/Supporting Files/Privacyinfo.xcprivacy']}
   s.public_header_files = 'SSZipArchive/*.h'
