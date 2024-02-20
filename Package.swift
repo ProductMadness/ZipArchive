@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ZipArchive",
+    name: "PM-ZipArchive",
     platforms: [
         .iOS(.v9),
         .tvOS(.v9),
